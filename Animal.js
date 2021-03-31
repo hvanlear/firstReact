@@ -6,6 +6,7 @@ const Animal = (props) => {
       <li>Name: {props.name}</li>
       <li>Species: {props.species}</li>
       <li>Age: {props.age}</li>
+      <li>Friendly: {props.isFriendly ? "😺 " : "😾 "}</li>  
     </ul>
   );
 };
