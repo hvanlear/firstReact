@@ -1,10 +1,10 @@
-const App = () => {
-  return (
-    <div>
-      <Img />
-      <Img />
-      <NewImg />
-    </div>
-  );
-};
+const App = () => (
+  <div>
+    <RandomNum />
+    <Img />
+    <Img />
+    <NewImg />
+  </div>
+);
+
 ReactDOM.render(<App />, document.getElementById("root"));
